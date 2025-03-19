@@ -7,6 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+    <script src="https://kit.fontawesome.com/b848093772.js" crossorigin="anonymous"></script>
       <!-- navbar section -->
       <nav class="fixed top-0 w-full bg-white text-black flex justify-between items-center py-4 z-10">
         <div class="">
@@ -63,16 +64,16 @@
         </div>
     </section>
     <!-- Explore Core Programs -->
-    <section>
+    <section id="programs">
         <div class="text-center mt-7">
             <h2 class="font-bold">Explore Core Programs</h2>
             <p class="text-gray-600">We offer coding programs tailored to the most in-demand skills and pathways in the tech job market today.</p>
         </div>
         <!-- Program cards -->
-        <div class="grid grid-cols-2 w-full justify-center mt-5 flex py-4"> <!-- flex(makes images lie side by side) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 max-w-8xl mx-auto justify-center items-center mt-5 flex px-5 py-4 "> <!-- flex(makes images lie side by side) -->
 
             <!-- Software Eng -->
-            <div class="border border-gray-600  w-full h-100 md:w-3/4 rounded-lg flex mb-10 overflow-hidden"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
+            <div class="border border-gray-600 w-full h-100 md:w-3/4 rounded-lg flex mb-10 overflow-hidden"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
                 <div class="bg-white flex flex-col text-gray-600 py-10 px-19">
                     <!-- Image -->
                     <figure class="size-large">
@@ -181,11 +182,22 @@
         </div>
 
         <!-- Sliding cards -->
-        <div></div>
+        <div>
+            <!-- Card 1 -->
+            <div class="border border-gray-600 relative w-full h-100 md:w-3/4 rounded-lg flex mb-10 overflow-hidden"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
+                <div class="bg-white flex flex-col text-gray-600 py-10 px-19">
+                    <div class="px-6">
+                        <h3 class="font-semibold text-xl text-red-500">My experience has been nothing short of amazing</h3>
+                        <p class="mt-3">Specialisation for <u>Software Engineers and Developers</u> looking to nniche into Cloud & DevOps. Graduate in <b>3 months part-time</b>. AWS DevOps Engineer certification</p>
+                        <a href="" class="inline-block mt-5 bg-white text-red-500 px-40 py-1 rounded-sm hover:bg-cyan-500 transition border border-red-500 hover:text-white hover:border-cyan-500 hover:bg-cyan-500 transition cursor-pointer">Join The Waitlist</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div>
-            <p> 
-                <b class="font-semibold text-cyan-600">4.9/5.0 star rating</b> on Google Reviews – <p>Click to see more student reviews</p>
+            <p class="text-center"> 
+                <b class="font-semibold text-cyan-600">4.9/5.0 star rating</b> on Google Reviews – <p class="text-center hover:text-red-500 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 cursor-pointer">Click to see more student reviews</p>
             </p>
         </div>
     </section>
@@ -383,5 +395,101 @@
          </div>
 
     </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-8">
+
+        <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            <!-- Talk to us -->
+            <div>
+                <h2 class="text-lg font-semibold mb-2 text-red-500">TALK TO US</h2>
+            </div>
+                <div class="fixed w-full text-white flex justify-between items-center px-8s">
+                    <ul class="hidden md:flex space-x-6"></ul>
+                        <li><a href="#" class="hover:text-red-500 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 cursor-pointer">+254 (0) 768342776</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">hello@zinduaschool.com</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">233 Owashika Road, Lavington, Nairobi, Kenya(At Circular Innovation Hub)</a></li>
+                    </ul>
+                </div>
+            <!-- Social Media Icons --> 
+            <div class="flex space-x-4 p-2">
+                <a href="#" class="p-1 text-white hover:text-cyan-500 transition after:h-0.5 after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 cursor-pointer"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#" class="p-1 text-white hover:text-cyan-500 transition after:h-0.5 after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="p-1 text-white hover:text-cyan-500 transition after:h-0.5 after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#" class="p-1 text-white hover:text-cyan-500 transition after:h-0.5 after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#" class="p-1 text-white hover:text-cyan-500 transition after:h-0.5 after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100"><i class="fa-brands fa-square-youtube"></i></a>
+            </div>
+    
+            <!-- Join our newsletter -->
+            <div>
+                <h2>JOIN OUR NEWSLETTER</h2>
+                <div>
+                    <form>
+                        <input type="text" name="email address" placeholder="Your Email Address" class="p-2 rounded-lg border border-black focus:outline-none focus:border-blue-100 focus:ring-2 focus:ring-blue-100">
+                        <button type="subscribe" class="bg-red-500 text-white w-20 px-4 py-2 inline-block mt-2 rounded-full hover:bg-cyan-500 transition">Subscribe</button>
+                    </form>
+                </div> 
+            </div>    
+        </div>  
+    
+        <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">       
+            <!-- Quick Access -->
+            <div>
+              <h3 class="text-lg font-semibold mb-2">QUICK ACCESS</h3>
+              <ul class="space-y-1" >
+                  <li><a href="" class="text-white hover:text-red-500 transition">Apply Today</a></li>
+                  <li><a href="" class="text-white hover:text-red-500 transition">Financing Options</a></li>
+                  <li><a href="" class="text-white hover:text-red-500 transition">Frequently Asked(FAQs)</a></li>
+                  <li><a href="" class="text-white hover:text-red-500 transition">For High School Graduates</a></li>
+                  <li><a href="" class="text-white hover:text-red-500 transition">For University Graduates</a></li>
+                  <li><a href="" class="text-white hover:text-red-500 transition">For University Students</a></li>
+                  <li><a href="" class="text-white hover:text-red-500 transition">For Working Professionals</a></li>
+                  <li><a href="" class="text-white hover:text-red-500 transition">For Advanced Developers</a></li>
+              </ul>
+            </div>
+            <!-- Main Programs -->
+            <div>
+                <h3 class="text-lg font-semibold mb-2">MAIN PROGRAMS</h3>
+                <ul class="space-y-1" >
+                    <li><a href="" class="text-white hover:text-red-500 transition">Software Engineering Core</a></li>
+                    <li><a href="" class="text-white hover:text-red-500 transition">Data Science Core</a></li>
+                    <li><a href="" class="text-white hover:text-red-500 transition">Data Analytics</a></li>
+                    <li><a href="" class="text-white hover:text-red-500 transition">Frontend Development</a></li>
+                    <li><a href="" class="text-white hover:text-red-500 transition">Data Engineering Specialisation</a></li>
+                    <li><a href="" class="text-white hover:text-red-500 transition">DevOps Engineering Specialisation</a></li>
+                </ul>
+            </div>
+            <!-- Short Courses -->
+            <div>
+                <h3 class="text-lg font-semibold mb-2">SHORT COURSES</h3>
+                <ul class="space-y-1" >
+                    <li><a href="" class="text-white hover:text-red-500 transition">Product Management</a></li>
+                    <li><a href="" class="text-white hover:text-red-500 transition">Data Structures & Algorithms</a></li>
+                    <li><a href="" class="text-white hover:text-red-500 transition">30-Day Data Storytelling Challenge</a></li>
+                    <li><a href="" class="text-white hover:text-red-500 transition">30-Day Web Design Challenge</a></li>
+                    <li><a href="" class="text-white hover:text-red-500 transition">Free Introductory Courses</a></li>
+                    <li><a href="" class="text-white hover:text-red-500 transition">Events & Masterclass</a></li>
+                </ul>
+            </div>
+            <!-- Company -->
+            <div>
+                <h3 class="text-lg font-semibold mb-2">COMPANY</h3>
+                <ul class="space-y-1" >
+                    <li><a href="" class="text-white hover:text-red-500 transition">About Us</a></li>
+                    <li><a href="" class="text-white hover:text-red-500 transition">Contact Us</a></li>
+                    <li><a href="" class="text-white hover:text-red-500 transition">Explore Blog</a></li>
+                    <li><a href="" class="text-white hover:text-red-500 transition">Refer & Earn</a></li>
+                    <li><a href="" class="text-white hover:text-red-500 transition">Join our Team</a></li>
+                    <li><a href="" class="text-white hover:text-red-500 transition">Go to Zindua LMS</a></li>
+                    <li><a href="" class="text-white hover:text-red-500 transition">Go to Affiliate Portal</a></li>
+                </ul>
+            </div>
+        </div>    
+
+        <div class="footer-bottom text-gray-300 text-center">
+            <p>&copy; 2025 Zindua Coding School LTD</p>
+            <p>Terms Privacy Cookies</p>
+        </div>
+    </footer>
 </body>
 </html>
