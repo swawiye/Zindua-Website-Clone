@@ -70,13 +70,13 @@
             <p class="text-gray-600">We offer coding programs tailored to the most in-demand skills and pathways in the tech job market today.</p>
         </div>
         <!-- Program cards -->
-        <div class="grid grid-cols-1 md:grid-cols-2 max-w-8xl mx-auto justify-center items-center mt-5 flex px-5 py-4 "> <!-- flex(makes images lie side by side) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 max-w-8xl mx-auto justify-center items-center mt-5 flex px-20 py-4"> <!-- flex(makes images lie side by side) -->
 
             <!-- Software Eng -->
-            <div class="border border-gray-600 w-full h-100 md:w-3/4 rounded-lg flex mb-10 overflow-hidden"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
+            <div class="border border-gray-600 relative w-full h-100 md:w-3/4 rounded-lg flex mb-10 overflow-hidden"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
                 <div class="bg-white flex flex-col text-gray-600 py-10 px-19">
                     <!-- Image -->
-                    <figure class="size-large">
+                    <figure class="size-medium">
                         <div class="w-60">
                             <img src="assets/software eng icon.png" alt="Software Engineer Illustration">
                         </div>
@@ -88,7 +88,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- Data Sci -->
             <div class="border border-gray-600 relative w-full h-100 md:w-3/4 rounded-lg flex mb-10 overflow-hidden"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
                 <div class="bg-white flex flex-col text-gray-600 py-10 px-19">
@@ -168,7 +168,7 @@
                     </figure> 
                     <div class="px-6">
                         <h3 class="font-semibold text-xl text-red-500">DevOps Engineering</h3>
-                        <p class="mt-3">Specialisation for <u>Software Engineers and Developers</u> looking to nniche into Cloud & DevOps. Graduate in <b>3 months part-time</b>. AWS DevOps Engineer certification</p>
+                        <p class="mt-3">Specialisation for <u>Software Engineers and Developers</u> looking to niche into Cloud & DevOps. Graduate in <b>3 months part-time</b>. AWS DevOps Engineer certification</p>
                         <a href="" class="inline-block mt-5 bg-white text-red-500 px-40 py-1 rounded-sm hover:bg-cyan-500 transition border border-red-500 hover:text-white hover:border-cyan-500 hover:bg-cyan-500 transition cursor-pointer">Join The Waitlist</a>
                     </div>
                 </div>
@@ -182,24 +182,40 @@
         </div>
 
         <!-- Sliding cards -->
-        <div>
+        <div class="grid grid-cols-2 gap-4 max-w-6xl mx-auto mt-2"> 
+
             <!-- Card 1 -->
-            <div class="border border-gray-600 relative w-full h-100 md:w-3/4 rounded-lg flex mb-10 overflow-hidden"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
-                <div class="bg-white flex flex-col text-gray-600 py-10 px-19">
-                    <div class="px-6">
-                        <h3 class="font-semibold text-xl text-red-500">My experience has been nothing short of amazing</h3>
-                        <p class="mt-3">Specialisation for <u>Software Engineers and Developers</u> looking to nniche into Cloud & DevOps. Graduate in <b>3 months part-time</b>. AWS DevOps Engineer certification</p>
-                        <a href="" class="inline-block mt-5 bg-white text-red-500 px-40 py-1 rounded-sm hover:bg-cyan-500 transition border border-red-500 hover:text-white hover:border-cyan-500 hover:bg-cyan-500 transition cursor-pointer">Join The Waitlist</a>
-                    </div>
-                </div>
+            <div class="border border-gray-500 rounded-lg px-10 py-6">
+                <h5 class="text-red-500 text-center text-3xl font-bold">My experience has been nothing short of amazing</h5>
+                <p class="mt-5">
+                    The curriculum is well designed and covers all the essential topics in a comprehensive manner.
+                    The instructors are knowledgeable and passionate about teaching, and they go above and beyond to ensure that every student understands the material.
+                    The learning environment is collaborative and supportive, with plenty of opportunities to work on projects with other students.
+                    This has not only helped me to improve my coding skills but also to develop my teamwork and communication abilities.
+                </p>
+                <p class="mt-5 text-cyan-600 font-semibold text-center">Januarius Kosgei</p>
+                <p class="text-gray-500 text-center">Data Science Graduate 2023</p>
+            </div> 
+
+            <!-- Card 2 -->
+            <div class="border border-gray-500  rounded-lg px-10 py-6">
+                <h5 class="text-red-500 text-center text-3xl font-bold">Reliable technical mentors with excellent support</h5>
+                <p class="mt-5">
+                    I enjoy how the course is structured, my Technical Mentor is super reliable and provides useful resources that compliment the course work I'm doing.
+                    The support from Zindua is excellent, they have a dedicated Slack channel where we ask and receive help from both the Technical Mentors and my fellow 
+                    students. The projects are challenging but manageable and help reinforce the material covered. I would recommend Zindua to anyone who wants to kickstart
+                    their tech career and want a personalized learning experience.  
+                </p>
+                <p class="mt-5 text-cyan-600 font-semibold text-center">Emelda Laeticia</p>
+                <p class="text-gray-500 text-center">Software Dev Graduate 2023</p>
             </div>
+            
+        </div>    
+        <!-- Google reviews -->
+        <div class="mt-5">
+            <h6 class="text-center tracking-wide"><span class="text-cyan-600 font-bold" >4.9/5.0 star rating</span> on Google Reviews-<a href="https://www.google.com/search?q=zindua+school+google+reviews&oq=zindua+school+google+reviews&aqs=chrome..69i57.5528j0j1&sourceid=chrome&ie=UTF-8" class="text-red-500 hover:text-cyan-600">Click to see more student reviews</a></h6>
         </div>
 
-        <div>
-            <p class="text-center"> 
-                <b class="font-semibold text-cyan-600">4.9/5.0 star rating</b> on Google Reviews – <p class="text-center hover:text-red-500 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-white after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 cursor-pointer">Click to see more student reviews</p>
-            </p>
-        </div>
     </section>
 
     <section>
@@ -217,61 +233,49 @@
             <p class="text-gray-700">We have filtered our recommended programs based on your personal career and/or academic level</p>
         </div>
         <!-- Cards -->
-
-         <!--For High School Grads -->
-         <div class="border border-gray-600  w-full h-100 md:w-3/4 rounded-lg flex mb-10 overflow-hidden"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
-            <div class="bg-white flex flex-col text-gray-600 py-10 px-19">
-                <div class="px-6">
-                    <h3 class="font-semibold text-xl text-red-500">For High School Grads</h3>
-                    <p class="mt-3">Just completed high school? Learn to code and upskill into tech and Software Dev even before you join university</p>
-                    <a href="" class="inline-block mt-5 bg-white text-red-500 px-40 py-1 rounded-sm hover:bg-cyan-500 transition border border-red-500 hover:text-white hover:border-cyan-500 hover:bg-cyan-500 transition cursor-pointer">See Recommeded Programs</a>
-                </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 mx-auto max-w-6xl gap-4 mt-5">
+            <!-- For High School Grads -->
+            <div class="border border-gray-400 px-10 py-10 rounded-xl">
+                <h3 class="font-semibold text-2xl text-red-500">For High School Grads</h3>
+                <p class="mt-4 text-gray-500 text-lg">Just completed high school? Learn to code and upskill into tech and Software Dev even before you join university</p>
+                <button class="mt-5 bg-white text-red-500 rounded-md border border-2 border-red-500 hover:bg-cyan-500 hover:text-white hover:text-white hover:border-cyan-500 items-center px-10 py-2 text-xl ml-5">See recommended programs </button>
             </div>
-        </div>
+
+        <!-- For University Students -->
+        <div class="border border-gray-400 px-10 py-10 rounded-xl">
+           <h3 class="font-semibold text-2xl text-red-500">For University Students</h3>
+           <p class="mt-4 text-gray-500 text-lg">Complement your degree with employable tech skills. Join part-time while in school or full-time during long holidays</p>
+           <button class="mt-5 bg-white text-red-500 rounded-md border border-2 border-red-500 hover:bg-cyan-500 hover:text-white hover:text-white hover:border-cyan-500 items-center px-10 py-2 text-xl ml-5">See recommended programs </button>
+        </div>    
 
          <!-- For University Graduates -->
-         <div class="border border-gray-600  w-full h-100 md:w-3/4 rounded-lg flex mb-10 overflow-hidden"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
-            <div class="bg-white flex flex-col text-gray-600 py-10 px-19">
-                <div class="px-6">
-                    <h3 class="font-semibold text-xl text-red-500">For University Graduates</h3>
-                    <p class="mt-3">Level up your degree by upskilling into an in-demand Data or Software career. Unlock limitless career possibilities</p>
-                    <a href="" class="inline-block mt-5 bg-white text-red-500 px-40 py-1 rounded-sm hover:bg-cyan-500 transition border border-red-500 hover:text-white hover:border-cyan-500 hover:bg-cyan-500 transition cursor-pointer">See Recommeded Programs</a>
-                </div>
-            </div>
-         </div>
+         <div class="border border-gray-400 px-10 py-10 rounded-xl">
+            <h3 class="font-semibold text-2xl text-red-500">For University Graduates</h3>
+            <p class="mt-4 text-gray-500 text-lg">Level up your degree by upskilling into an in-demand Data or Software career. Unlock limitless career possibilities</p>
+            <button class="mt-5 bg-white text-red-500 rounded-md border border-2 border-red-500 hover:bg-cyan-500 hover:text-white hover:text-white hover:border-cyan-500 items-center px-10 py-2 text-xl ml-5">See recommended programs </button>
+        </div>
 
          <!-- For Working Professionals -->
-         <div class="border border-gray-600  w-full h-100 md:w-3/4 rounded-lg flex mb-10 overflow-hidden"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
-           <div class="bg-white flex flex-col text-gray-600 py-10 px-19">
-               <div class="px-6">
-                   <h3 class="font-semibold text-xl text-red-500">For Working Professionals</h3>
-                   <p class="mt-3">Overcome your your career plateau by upskilling into tech. Acquire the technical skills shaping the job market</p>
-                   <a href="" class="inline-block mt-5 bg-white text-red-500 px-40 py-1 rounded-sm hover:bg-cyan-500 transition border border-red-500 hover:text-white hover:border-cyan-500 hover:bg-cyan-500 transition cursor-pointer">See Recommeded Programs</a>
-               </div>
-           </div>
-         </div>
+         <div class="border border-gray-400 px-10 py-10 rounded-xl">
+            <h3 class="font-semibold text-2xl text-red-500">For Working Professionals</h3>
+            <p class="mt-4 text-gray-500 text-lg">Overcome your your career plateau by upskilling into tech. Acquire the technical skills shaping the job market</p>
+            <button class="mt-5 bg-white text-red-500 rounded-md border border-2 border-red-500 hover:bg-cyan-500 hover:text-white hover:text-white hover:border-cyan-500 items-center px-10 py-2 text-xl ml-5">See recommended programs </button>
+        </div> 
 
          <!-- For Advanced Developers -->
-         <div class="border border-gray-600  w-full h-100 md:w-3/4 rounded-lg flex mb-10 overflow-hidden"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
-           <div class="bg-white flex flex-col text-gray-600 py-10 px-19">
-               <div class="px-6">
-                   <h3 class="font-semibold text-xl text-red-500">For Advanced Developers</h3>
-                   <p class="mt-3">Already a Developer, Data Scientist, or Data Analyst? Specialise into a niche emerging tech pathway</p>
-                   <a href="" class="inline-block mt-5 bg-white text-red-500 px-40 py-1 rounded-sm hover:bg-cyan-500 transition border border-red-500 hover:text-white hover:border-cyan-500 hover:bg-cyan-500 transition cursor-pointer">See Recommeded Programs</a>
-               </div>
-           </div>
-         </div>
+         <div class="border border-gray-400 px-10 py-10 rounded-xl">
+            <h3 class="font-semibold text-2xl text-red-500">For Advanced Developers</h3>
+            <p class="mt-4 text-gray-500 text-lg">Already a Developer, Data Scientist, or Data Analyst? Specialise into a niche emerging tech pathway</p>
+            <button class="mt-5 bg-white text-red-500 rounded-md border border-2 border-red-500 hover:bg-cyan-500 hover:text-white hover:text-white hover:border-cyan-500 items-center px-10 py-2 text-xl ml-5">See recommended programs </button>
+        </div> 
 
          <!-- Zindua for Business -->
-         <div class="border border-gray-600  w-full h-100 md:w-3/4 rounded-lg flex mb-10 overflow-hidden"> <!-- Card effect formatting: bg-yellow-100 shadow-lg rounded-lg p-4 mt-3 hover:bg-yellow-400 transition md:20 -->
-           <div class="bg-white flex flex-col text-gray-600 py-10 px-19">
-               <div class="px-6">
-                   <h3 class="font-semibold text-xl text-red-500">Zindua for Business</h3>
-                   <p class="mt-3">Special rates for bulk enrolments for your organisation. Customise learning objectives to fit your business needs</p>
-                   <a href="" class="inline-block mt-5 bg-white text-red-500 px-40 py-1 rounded-sm hover:bg-cyan-500 transition border border-red-500 hover:text-white hover:border-cyan-500 hover:bg-cyan-500 transition cursor-pointer">Contact Us</a>
-               </div>
-           </div>
-         </div>
+         <div class="bg-black border-black px-10 py-10 rounded-xl">
+            <h3 class="font-semibold text-2xl text-red-500">Zindua for Business</h3>
+            <p class="mt-4 text-white text-lg">Special rates for bulk enrolments for your organisation. Customise learning objectives to fit your business needs</p>
+            <button class="mt-5 bg-white text-black rounded-md border border-2 border-white hover:bg-cyan-500 hover:text-white hover:text-white hover:border-cyan-500 items-center px-10 py-2 text-xl ml-5">Contact Us</button>
+        </div> 
+
     </section>
 
     <section>
